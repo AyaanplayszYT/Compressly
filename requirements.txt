@@ -1,0 +1,5 @@
+# Compressly desktop — runtime dependencies (minimal, pinned).
+# Both packages are actively maintained, widely used, and security-patched.
+
+PySide6==6.8.1.1   # Qt 6 bindings, official from Qt Group
+Pillow==11.0.0     # Image I/O — widely audited, regular CVE patches

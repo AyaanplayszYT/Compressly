@@ -1,0 +1,176 @@
+# ─────────────────────────────────────────────────────────────────
+#  Compressly — .gitignore
+# ─────────────────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# PEP 582 (local packages)
+__pypackages__/
+
+# ── PyInstaller ───────────────────────────────────────────────────
+# .spec files contain hardcoded absolute paths — keep gitignored.
+# Compressly.manifest and version_info.txt are source-controlled (not generated).
+*.spec
+# Build artefacts
+build/
+dist/
+
+# ── Installer logs ────────────────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Testing ───────────────────────────────────────────────────────
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# ── Type checkers ─────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+.ruff_cache/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ── Environments / secrets ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ── Generated assets (re-create via assets/gen_assets.py) ────────
+assets/icon.png
+assets/icon.ico
+assets/logo_small.png
+assets/logo_text.png
+assets/logo_text_dark.png
+assets/logo_text_light.png
+
+# ── Windows OS files ──────────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ── macOS ─────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ── Linux ─────────────────────────────────────────────────────────
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ── IDEs & editors ────────────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Vim / Neovim
+*.swp
+*.swo
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ── Logs & databases ──────────────────────────────────────────────
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ── Node / npm (package-lock.json kept but node_modules excluded) ─
+node_modules/
+
+# ── Misc ──────────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
