@@ -1,7 +1,13 @@
 <div align="center">
   <img src="assets/compressly-logo.png" alt="Compressly Logo" width="120" />
 
-  # Compressly
+---
+
+<div align="center">
+  <img src="assets/compressly-darkmode.png" alt="Compressly Dark Mode" width="700" />
+</div>
+
+---
 
   **A modern, privacy-first image compression desktop app for Windows**
 
@@ -30,14 +36,6 @@ Compressly is a lightweight, native Windows desktop application for batch image 
 | Offline support | Yes (Always works) | No (Requires internet) |
 | No install bloat | Yes (~2 dependencies) | No (Electron / Node) |
 | Background removal | Yes (Built-in local) | No (Usually paid/cloud) |
-
----
-
-<div align="center">
-  <img src="assets/compressly-darkmode.png" alt="Compressly Dark Mode" width="700" />
-</div>
-
----
 
 ## Features
 
