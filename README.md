@@ -33,14 +33,8 @@ Compressly is a lightweight, native Windows desktop application for batch image 
 
 ---
 
-## Screenshots
-
 <div align="center">
   <img src="assets/compressly-darkmode.png" alt="Compressly Dark Mode" width="700" />
-  <br/><em>Dark mode — Windows 11-inspired UI with sidebar navigation</em>
-  <br/><br/>
-  <img src="assets/compressly-lightmode.png" alt="Compressly Light Mode" width="700" />
-  <br/><em>Light mode — clean, minimal interface</em>
 </div>
 
 ---
